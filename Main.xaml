@@ -110,7 +110,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="737.6,6392" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="C:\Users\Mustafa\Downloads\Certificate Details1.xlsx">
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="737.6,6392" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" WorkbookPath="Certificate Details1.xlsx">
               <ueab:ExcelApplicationCard.Body>
                 <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                   <ActivityAction.Argument>
@@ -236,7 +236,7 @@
                                 </Sequence>
                               </If.Else>
                             </If>
-                            <p:WordApplicationScope DisplayName="Word Application Scope" FilePath="C:\Users\Mustafa\OneDrive\Desktop\UIpath.docx" sap:VirtualizedContainerService.HintSize="587.2,4765.6" sap2010:WorkflowViewState.IdRef="WordApplicationScope_1">
+                            <p:WordApplicationScope DisplayName="Word Application Scope" FilePath="UIpath.docx" sap:VirtualizedContainerService.HintSize="587.2,4765.6" sap2010:WorkflowViewState.IdRef="WordApplicationScope_1">
                               <p:WordApplicationScope.Body>
                                 <ActivityAction x:TypeArguments="ui:WordDocument">
                                   <ActivityAction.Argument>
